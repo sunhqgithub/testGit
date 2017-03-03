@@ -6,3 +6,5 @@ Git tracks changes of files.
 提交romote成功
 
 Creating a new branch is quick.
+
+Creating a new branch is quick AND simple.
