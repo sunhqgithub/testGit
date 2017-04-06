@@ -14,6 +14,7 @@
 		B96B90901E95D54F006FF150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96B908E1E95D54F006FF150 /* LaunchScreen.storyboard */; };
 		B96B909B1E95D54F006FF150 /* testGroup2017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B909A1E95D54F006FF150 /* testGroup2017Tests.swift */; };
 		B96B90A61E95D54F006FF150 /* testGroup2017UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B90A51E95D54F006FF150 /* testGroup2017UITests.swift */; };
+		B96B90B51E95D79E006FF150 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = B96B90B41E95D79E006FF150 /* readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B96B90A11E95D54F006FF150 /* testGroup2017UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGroup2017UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96B90A51E95D54F006FF150 /* testGroup2017UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testGroup2017UITests.swift; sourceTree = "<group>"; };
 		B96B90A71E95D54F006FF150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96B90B41E95D79E006FF150 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B96B90841E95D54F006FF150 /* testGroup2017 */ = {
 			isa = PBXGroup;
 			children = (
+				B96B90B31E95D79E006FF150 /* util */,
 				B96B90851E95D54F006FF150 /* AppDelegate.swift */,
 				B96B90871E95D54F006FF150 /* ViewController.swift */,
 				B96B90891E95D54F006FF150 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				B96B90A71E95D54F006FF150 /* Info.plist */,
 			);
 			path = testGroup2017UITests;
+			sourceTree = "<group>";
+		};
+		B96B90B31E95D79E006FF150 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				B96B90B41E95D79E006FF150 /* readme */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96B90B51E95D79E006FF150 /* readme in Resources */,
 				B96B90901E95D54F006FF150 /* LaunchScreen.storyboard in Resources */,
 				B96B908D1E95D54F006FF150 /* Assets.xcassets in Resources */,
 				B96B908B1E95D54F006FF150 /* Main.storyboard in Resources */,
