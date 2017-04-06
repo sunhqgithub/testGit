@@ -97,6 +97,7 @@
 		B97D74841E95CFE30076F668 /* testGroup */ = {
 			isa = PBXGroup;
 			children = (
+				B97D74B51E95D1B00076F668 /* group3 */,
 				B97D74B41E95D00C0076F668 /* group2 */,
 				B97D74B31E95CFF60076F668 /* group1 */,
 				B97D74851E95CFE30076F668 /* AppDelegate.swift */,
@@ -139,6 +140,13 @@
 			children = (
 			);
 			path = group2;
+			sourceTree = "<group>";
+		};
+		B97D74B51E95D1B00076F668 /* group3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = group3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,6 +529,7 @@
 				B97D74AC1E95CFE30076F668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B97D74AD1E95CFE30076F668 /* Build configuration list for PBXNativeTarget "testGroupTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +538,7 @@
 				B97D74AF1E95CFE30076F668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B97D74B01E95CFE30076F668 /* Build configuration list for PBXNativeTarget "testGroupUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +547,7 @@
 				B97D74B21E95CFE30076F668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
