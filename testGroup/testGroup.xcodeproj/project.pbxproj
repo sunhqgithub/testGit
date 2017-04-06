@@ -14,6 +14,7 @@
 		B9AE033C1E95D30F006495B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AE033A1E95D30F006495B5 /* LaunchScreen.storyboard */; };
 		B9AE03471E95D30F006495B5 /* testGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE03461E95D30F006495B5 /* testGroupTests.swift */; };
 		B9AE03521E95D30F006495B5 /* testGroupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE03511E95D30F006495B5 /* testGroupUITests.swift */; };
+		B9AE03611E95D42B006495B5 /* group11 in Resources */ = {isa = PBXBuildFile; fileRef = B9AE03601E95D42B006495B5 /* group11 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B9AE034D1E95D30F006495B5 /* testGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGroupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AE03511E95D30F006495B5 /* testGroupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testGroupUITests.swift; sourceTree = "<group>"; };
 		B9AE03531E95D30F006495B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AE03601E95D42B006495B5 /* group11 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = group11; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,7 @@
 		B9AE03301E95D30F006495B5 /* testGroup */ = {
 			isa = PBXGroup;
 			children = (
-				B9AE035F1E95D325006495B5 /* group11 */,
+				B9AE03601E95D42B006495B5 /* group11 */,
 				B9AE03311E95D30F006495B5 /* AppDelegate.swift */,
 				B9AE03331E95D30F006495B5 /* ViewController.swift */,
 				B9AE03351E95D30F006495B5 /* Main.storyboard */,
@@ -124,13 +126,6 @@
 				B9AE03531E95D30F006495B5 /* Info.plist */,
 			);
 			path = testGroupUITests;
-			sourceTree = "<group>";
-		};
-		B9AE035F1E95D325006495B5 /* group11 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = group11;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +234,7 @@
 			files = (
 				B9AE033C1E95D30F006495B5 /* LaunchScreen.storyboard in Resources */,
 				B9AE03391E95D30F006495B5 /* Assets.xcassets in Resources */,
+				B9AE03611E95D42B006495B5 /* group11 in Resources */,
 				B9AE03371E95D30F006495B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
